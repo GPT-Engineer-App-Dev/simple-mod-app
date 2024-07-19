@@ -3,6 +3,14 @@ import Index from "./pages/Index.jsx";
 
 /**
  * Central place for defining the navigation items. Used for navigation components and routing.
+ * To add more pages:
+ * 1. Create a new page component in the pages directory
+ * 2. Import the page component here
+ * 3. Add a new object to the navItems array with the following properties:
+ *    - title: The text to display in the navigation
+ *    - to: The URL path for the page
+ *    - icon: An optional icon component to display (import from lucide-react)
+ *    - page: The imported page component
  */
 export const navItems = [
   {
